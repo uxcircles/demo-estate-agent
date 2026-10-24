@@ -138,35 +138,23 @@
 </header>
 
 <main id="main">
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">服務台灣與香港家庭的房仲</p>
-        <h1>在英國買房租屋，用中文說清楚</h1>
-        <p class="lede">永久產權還是租賃產權、市政稅級別、押金與過戶流程——我們用國語、粵語或英文，陪你走完在倫敦買房或租屋的每一步。</p>
-        <div class="hero-actions">
-          <a class="btn" href="#contact">預約看房 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="btn btn-ghost" href="#services">我們能幫什麼</a>
+  <section class="hero hero-full" style="--hero-img:url('img/hero-notting-hill.webp')">
+    <div class="wrap hero-full-inner">
+      <p class="eyebrow">服務台灣與香港家庭的房仲</p>
+      <h1>在英國買房租屋，用中文說清楚</h1>
+      <p class="lede">永久產權還是租賃產權、市政稅級別、押金與過戶流程——我們用國語、粵語或英文，陪你走完在倫敦買房或租屋的每一步。</p>
+      <form class="search" data-search action="#homes">
+        <div class="search-tabs" role="radiogroup">
+          <label><input type="radio" name="kind" value="sale" checked><span>買房</span></label>
+          <label><input type="radio" name="kind" value="let"><span>租屋</span></label>
         </div>
-        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>國語・粵語・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman 會員（示範）</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>客戶資金保障 CMP（示範）</span></li></ul>
-      </div>
-      <div class="hero-visual">
-        <div class="hero-home">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
-<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
-<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
-<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
-<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
-<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
-<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
-          <div class="home-body">
-            <p class="home-price">£895,000</p>
-            <h3>3 房維多利亞式連排屋</h3>
-            <p class="home-area">Ealing W5</p>
-            <ul class="home-facts"><li>永久產權 Freehold</li><li>市政稅 E 級</li><li>EPC 能源評級 D</li></ul>
-          </div>
+        <div class="search-row">
+          <label class="field">地區<select name="area"><option>所有地區</option><option>Ealing</option><option>Kingston upon Thames</option><option>Sutton</option></select></label>
+          <label class="field">房間數<select name="beds"><option>不限</option><option>1+</option><option>2+</option><option>3+</option></select></label>
+          <button class="btn" type="submit">搜尋物件 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </div>
-        <div class="hero-chip" aria-hidden="true"><span>中</span>國語・粵語・英文</div></div>
+      </form>
+      <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>國語・粵語・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman 會員（示範）</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>客戶資金保障 CMP（示範）</span></li></ul>
     </div>
   </section>
 
@@ -215,7 +203,7 @@
         <div>
           <p class="eyebrow">物件</p>
           <h2>出售及出租物件</h2>
-          <p>每個物件都清楚列出產權、市政稅級別及能源評級。以下物件均為虛構。</p>
+          <p>每個物件都清楚列出產權、市政稅級別及能源評級。以下物件均為虛構，照片僅供示意。</p>
         </div>
         <div class="filter" data-filter="#home-grid" role="group">
           <button type="button" data-value="all" aria-pressed="true">全部</button>
@@ -225,13 +213,7 @@
       </header>
       <div class="home-grid" id="home-grid">
         <article class="home" data-kind="sale">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
-<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
-<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
-<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
-<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
-<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
-<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-art"><img src="../img/home-1.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag sale">出售</span></div>
           <div class="home-body">
             <p class="home-price">£895,000</p>
             <h3>3 房維多利亞式連排屋</h3>
@@ -240,9 +222,7 @@
           </div>
         </article>
         <article class="home" data-kind="sale">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#e2d3bf"/><rect x="80" y="40" width="170" height="10" fill="#6b5a4a"/>
-<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#6b5a4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
-<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-art"><img src="../img/home-2.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag sale">出售</span></div>
           <div class="home-body">
             <p class="home-price">£450,000</p>
             <h3>2 房河景公寓</h3>
@@ -251,12 +231,7 @@
           </div>
         </article>
         <article class="home" data-kind="sale">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="60" y="80" width="100" height="100" fill="#d9a77f"/><rect x="160" y="80" width="100" height="100" fill="#d9a77f" opacity=".88"/>
-<polygon points="50,82 110,40 210,40 270,82" fill="#4a3a33"/>
-<rect x="76" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="116" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="176" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="216" y="96" width="28" height="28" fill="#fdf6ec"/>
-<rect x="76" y="140" width="36" height="26" fill="#fdf6ec"/><rect x="124" y="136" width="22" height="44" fill="#3d5a45"/>
-<rect x="174" y="136" width="22" height="44" fill="#3d5a45"/><rect x="208" y="140" width="36" height="26" fill="#fdf6ec"/>
-<rect x="18" y="128" width="34" height="52" rx="17" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-art"><img src="../img/home-3.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag sale">出售</span></div>
           <div class="home-body">
             <p class="home-price">£725,000</p>
             <h3>4 房半獨立屋</h3>
@@ -265,9 +240,7 @@
           </div>
         </article>
         <article class="home" data-kind="let">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#cfd8d3"/><rect x="80" y="40" width="170" height="10" fill="#3f4f4a"/>
-<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#3f4f4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
-<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-art"><img src="../img/home-4.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag let">出租</span></div>
           <div class="home-body">
             <p class="home-price">每月 £2,150</p>
             <h3>2 房公寓・近伊莉莎白線</h3>
@@ -276,9 +249,7 @@
           </div>
         </article>
         <article class="home" data-kind="let">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#efe1cf"/><rect x="80" y="40" width="170" height="10" fill="#7a5a44"/>
-<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#7a5a44"/><rect x="152" y="156" width="26" height="24" fill="#2d4a5a"/>
-<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-art"><img src="../img/home-5.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag let">出租</span></div>
           <div class="home-body">
             <p class="home-price">每月 £1,650</p>
             <h3>1 房公寓・市中心</h3>
@@ -287,13 +258,7 @@
           </div>
         </article>
         <article class="home" data-kind="let">
-          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#a9b8a0"/><rect x="120" y="70" width="80" height="110" fill="#a9b8a0" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#a9b8a0"/>
-<polygon points="34,72 160,30 286,72" fill="#3f4a3a"/>
-<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
-<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
-<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
-<rect x="148" y="134" width="24" height="46" rx="12" fill="#b4532a"/>
-<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-art"><img src="../img/home-6.webp" alt="" width="800" height="500" loading="lazy"><span class="home-tag let">出租</span></div>
           <div class="home-body">
             <p class="home-price">每月 £2,400</p>
             <h3>3 房連花園家庭屋</h3>
@@ -442,7 +407,7 @@
     </div>
     <div class="footer-bottom">
       <p>© 2026 雅德地產 (fictional) · <a href="#contact">隱私政策</a> · <a href="#contact">投訴程序</a> · 本示範網站不使用 cookies 或追蹤工具。</p>
-      <p>概念網站設計： <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></p>
+      <p>概念網站設計： <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a> · 照片： <a href="https://www.pexels.com/">Pexels</a></p>
     </div>
   </div>
 </footer>
