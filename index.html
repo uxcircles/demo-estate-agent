@@ -118,7 +118,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span>Design demo by <a href="https://ux-circles.com/professionals">UX CIRCLES</a>. This is a fictional firm — not a real business, and nothing here is advice.</span></div>
 
-<header class="site-header">
+<header class="site-header is-overlay">
   <div class="wrap header-inner">
     <a class="brand" href="./" aria-label="Alder &amp; Wren">
       <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#b4532a"/><path d="M9 21L20 11l11 10" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linejoin="round"/><circle cx="20" cy="24" r="2.4" fill="#fff6ec"/></svg>
@@ -139,29 +139,23 @@
 </header>
 
 <main id="main">
-  <section class="hero hero-split">
-    <div class="wrap hero-split-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">Estate agents for Taiwanese & Hong Kong families</p>
-        <h1>Your first UK home, explained in Chinese</h1>
-        <p class="lede">Freehold or leasehold, council tax bands, deposits and conveyancing — we walk you through every step of buying or renting in London, in Mandarin, Cantonese or English.</p>
-        <form class="search" data-search action="#homes">
-          <div class="search-tabs" role="radiogroup">
-            <label><input type="radio" name="kind" value="sale" checked><span>Buy</span></label>
-            <label><input type="radio" name="kind" value="let"><span>Rent</span></label>
-          </div>
-          <div class="search-row">
-            <label class="field">Area<select name="area"><option>All areas</option><option>Ealing</option><option>Kingston upon Thames</option><option>Sutton</option></select></label>
-            <label class="field">Bedrooms<select name="beds"><option>Any</option><option>1+</option><option>2+</option><option>3+</option></select></label>
-            <button class="btn" type="submit">Search homes <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-          </div>
-        </form>
-        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Mandarin · Cantonese · English</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman member (demo)</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Client Money Protection (demo)</span></li></ul>
-      </div>
-      <figure class="hero-photo" data-parallax>
-        <img src="img/hero-house.webp" alt="" width="1000" height="1200">
-        <span class="hero-chip"><span>中</span>Mandarin · Cantonese · English</span>
-      </figure>
+  <section class="hero hero-full" data-parallax style="--hero-img:url('img/hero-bg.webp')">
+    <div class="wrap hero-full-inner">
+      <p class="eyebrow">Estate agents for Taiwanese & Hong Kong families</p>
+      <h1>Your first UK home, explained in Chinese</h1>
+      <p class="lede">Freehold or leasehold, council tax bands, deposits and conveyancing — we walk you through every step of buying or renting in London, in Mandarin, Cantonese or English.</p>
+      <form class="search" data-search action="#homes">
+        <div class="search-tabs" role="radiogroup">
+          <label><input type="radio" name="kind" value="sale" checked><span>Buy</span></label>
+          <label><input type="radio" name="kind" value="let"><span>Rent</span></label>
+        </div>
+        <div class="search-row">
+          <label class="field">Area<select name="area"><option>All areas</option><option>Ealing</option><option>Kingston upon Thames</option><option>Sutton</option></select></label>
+          <label class="field">Bedrooms<select name="beds"><option>Any</option><option>1+</option><option>2+</option><option>3+</option></select></label>
+          <button class="btn" type="submit">Search homes <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </form>
+      <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Mandarin · Cantonese · English</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman member (demo)</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Client Money Protection (demo)</span></li></ul>
     </div>
   </section>
 

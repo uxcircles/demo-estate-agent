@@ -118,7 +118,7 @@
 <a class="skip" href="#main">跳去主要內容</a>
 <div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span><a href="https://ux-circles.com/professionals">UX CIRCLES</a> 設計嘅示範網站。呢間係虛構公司，唔係真嘅，入面啲內容唔算係任何專業意見。</span></div>
 
-<header class="site-header">
+<header class="site-header is-overlay">
   <div class="wrap header-inner">
     <a class="brand" href="./" aria-label="雅德地產">
       <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#b4532a"/><path d="M9 21L20 11l11 10" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linejoin="round"/><circle cx="20" cy="24" r="2.4" fill="#fff6ec"/></svg>
@@ -139,29 +139,23 @@
 </header>
 
 <main id="main">
-  <section class="hero hero-split">
-    <div class="wrap hero-split-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">專幫香港同台灣家庭嘅地產代理</p>
-        <h1>喺英國買樓租樓，用廣東話同你講清楚</h1>
-        <p class="lede">永久業權定租賃業權、市政稅級別、按金同過戶流程——我哋用廣東話、普通話或者英文，陪你行晒喺倫敦買樓或者租樓嘅每一步。</p>
-        <form class="search" data-search action="#homes">
-          <div class="search-tabs" role="radiogroup">
-            <label><input type="radio" name="kind" value="sale" checked><span>買樓</span></label>
-            <label><input type="radio" name="kind" value="let"><span>租樓</span></label>
-          </div>
-          <div class="search-row">
-            <label class="field">地區<select name="area"><option>所有地區</option><option>Ealing</option><option>Kingston upon Thames</option><option>Sutton</option></select></label>
-            <label class="field">房數<select name="beds"><option>不限</option><option>1+</option><option>2+</option><option>3+</option></select></label>
-            <button class="btn" type="submit">搵樓盤 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-          </div>
-        </form>
-        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>廣東話・普通話・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman 會員（示範）</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>客戶資金保障 CMP（示範）</span></li></ul>
-      </div>
-      <figure class="hero-photo" data-parallax>
-        <img src="../img/hero-house.webp" alt="" width="1000" height="1200">
-        <span class="hero-chip"><span>中</span>廣東話・普通話・英文</span>
-      </figure>
+  <section class="hero hero-full" data-parallax style="--hero-img:url('img/hero-bg.webp')">
+    <div class="wrap hero-full-inner">
+      <p class="eyebrow">專幫香港同台灣家庭嘅地產代理</p>
+      <h1>喺英國買樓租樓，用廣東話同你講清楚</h1>
+      <p class="lede">永久業權定租賃業權、市政稅級別、按金同過戶流程——我哋用廣東話、普通話或者英文，陪你行晒喺倫敦買樓或者租樓嘅每一步。</p>
+      <form class="search" data-search action="#homes">
+        <div class="search-tabs" role="radiogroup">
+          <label><input type="radio" name="kind" value="sale" checked><span>買樓</span></label>
+          <label><input type="radio" name="kind" value="let"><span>租樓</span></label>
+        </div>
+        <div class="search-row">
+          <label class="field">地區<select name="area"><option>所有地區</option><option>Ealing</option><option>Kingston upon Thames</option><option>Sutton</option></select></label>
+          <label class="field">房數<select name="beds"><option>不限</option><option>1+</option><option>2+</option><option>3+</option></select></label>
+          <button class="btn" type="submit">搵樓盤 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </form>
+      <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>廣東話・普通話・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman 會員（示範）</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>客戶資金保障 CMP（示範）</span></li></ul>
     </div>
   </section>
 
