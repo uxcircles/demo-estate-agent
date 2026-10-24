@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>雅德地產 Alder &amp; Wren — 倫敦中文房仲（示範網站）</title>
+<meta name="description" content="UX CIRCLES 設計示範：服務台灣及香港買家、租客的倫敦房仲。中英文提供買屋、租屋物件、區域介紹及英國購屋流程指南。">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://uxcircles.github.io/demo-estate-agent/zh-hant/">
+<link rel="alternate" hreflang="en-GB" href="https://uxcircles.github.io/demo-estate-agent/">
+<link rel="alternate" hreflang="zh-Hant" href="https://uxcircles.github.io/demo-estate-agent/zh-hant/">
+<link rel="alternate" hreflang="zh-Hans" href="https://uxcircles.github.io/demo-estate-agent/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://uxcircles.github.io/demo-estate-agent/">
+<meta property="og:title" content="雅德地產 Alder &amp; Wren — 倫敦中文房仲（示範網站）">
+<meta property="og:description" content="UX CIRCLES 設計示範：服務台灣及香港買家、租客的倫敦房仲。中英文提供買屋、租屋物件、區域介紹及英國購屋流程指南。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://uxcircles.github.io/demo-estate-agent/zh-hant/">
+<meta name="theme-color" content="#b4532a">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://uxcircles.github.io/demo-estate-agent/#agency",
+      "name": "雅德地產",
+      "url": "https://uxcircles.github.io/demo-estate-agent/zh-hant/",
+      "description": "UX CIRCLES 設計示範：服務台灣及香港買家、租客的倫敦房仲。中英文提供買屋、租屋物件、區域介紹及英國購屋流程指南。",
+      "telephone": "+44 20 7946 0123",
+      "email": "hello@example.com",
+      "knowsLanguage": [
+        "en",
+        "cmn",
+        "yue",
+        "zh-Hant",
+        "zh-Hans"
+      ],
+      "areaServed": [
+        "Ealing",
+        "Kingston upon Thames",
+        "Sutton"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "黃美君 Mei Huang",
+          "jobTitle": "總監・買賣",
+          "knowsLanguage": "國語、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "梁志豪 Jason Leung",
+          "jobTitle": "資深房仲・買賣",
+          "knowsLanguage": "粵語、英文"
+        },
+        {
+          "@type": "Person",
+          "name": "Hannah Price",
+          "jobTitle": "租賃及物業管理經理",
+          "knowsLanguage": "英文"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "持 BN(O) 或工作簽證可以在英國買房嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。英國沒有限制特定簽證才能擁有房產。能否申請房貸則視乎銀行，有些貸款機構專門服務新移民，建議及早諮詢房貸顧問。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "剛來英國，買房要多付印花稅嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "印花稅（SDLT）視乎房價及個人情況而定。非英國稅務居民的買家可能需要繳付額外附加稅。你的過戶律師會確認適用的稅額。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "沒有英國信用紀錄，還能租屋嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常可以。房東可能會要求英國擔保人，或改為提供收入或存款證明。我們會在申請前說明各種選擇。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "租屋的訂金是多少？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "在英格蘭，訂金（holding deposit）上限為一週租金；年租低於 £50,000 的租約，押金上限為五週租金。押金必須存放於政府認可的保障計劃。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="lang-zh-hant">
+<a class="skip" href="#main">跳至主要內容</a>
+<div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span><a href="https://ux-circles.com/professionals">UX CIRCLES</a> 設計示範網站。此為虛構事務所，並非真實公司，內容不構成任何專業建議。</span></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="雅德地產">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#b4532a"/><path d="M9 21L20 11l11 10" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linejoin="round"/><circle cx="20" cy="24" r="2.4" fill="#fff6ec"/></svg>
+      <span class="brand-text"><span class="brand-name">雅德地產</span><span class="brand-sub">倫敦買賣・租賃</span></span>
+    </a>
+    <nav class="main-nav" aria-label="選單">
+      <ul><li><a href="#services">服務</a></li><li><a href="#homes">物件</a></li><li><a href="#areas">區域介紹</a></li><li><a href="#guide">購屋流程</a></li><li><a href="#team">團隊</a></li></ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="語言"><a href="../" lang="en-GB" hreflang="en-GB" title="English">EN</a><a href="./" lang="zh-Hant" hreflang="zh-Hant" title="繁體中文" aria-current="true">繁</a><a href="../zh-hans/" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">简</a></div>
+      <a class="btn btn-sm" href="#contact">預約看房</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr">選單</span><span class="bars" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="選單" hidden>
+    <ul><li><a href="#services">服務</a></li><li><a href="#homes">物件</a></li><li><a href="#areas">區域介紹</a></li><li><a href="#guide">購屋流程</a></li><li><a href="#team">團隊</a></li><li><a href="#contact">聯絡我們</a></li></ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">服務台灣與香港家庭的房仲</p>
+        <h1>在英國買房租屋，用中文說清楚。</h1>
+        <p class="lede">永久產權還是租賃產權、市政稅級別、押金與過戶流程——我們用國語、粵語或英文，陪你走完在倫敦買房或租屋的每一步。</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">預約看房 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#services">我們能幫什麼</a>
+        </div>
+        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>國語・粵語・英文</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman 會員（示範）</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>客戶資金保障 CMP（示範）</span></li></ul>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-home">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
+<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-body">
+            <p class="home-price">£895,000</p>
+            <h3>3 房維多利亞式連排屋</h3>
+            <p class="home-area">Ealing W5</p>
+            <ul class="home-facts"><li>永久產權 Freehold</li><li>市政稅 E 級</li><li>EPC 能源評級 D</li></ul>
+          </div>
+        </div>
+        <div class="hero-chip" aria-hidden="true"><span>中</span>國語・粵語・英文</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">服務</p>
+        <h2>買房、租屋、賣房、出租</h2>
+        <p>無論你剛抵達英國，或是從海外投資，我們都會在你做決定前，用簡單易懂的方式說明英國房產制度。</p>
+      </header>
+      <div class="svc-grid">
+      <article class="svc">
+        <p class="svc-kicker">買家</p>
+        <h3>在英國買第一間房</h3>
+        <p>從房貸原則性批核到完成交易，每次看房都有中文房仲陪同。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>國語或粵語帶看</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>解說租賃產權條款</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>介紹過戶律師</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">租客</p>
+        <h3>在倫敦租屋</h3>
+        <p>協助尚無英國信用紀錄的租客通過背景審核，並清楚列出租金、押金及各項帳單。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>協助新移民通過租客審核</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>說明押金保障制度</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>中英文屋況清單</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">賣家</p>
+        <h3>出售房產</h3>
+        <p>同時向英國本地買家及尋找倫敦房產的華人買家推廣。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>免費估價</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>中英雙語物件刊登</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>備妥物件重要資訊</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">房東</p>
+        <h3>出租及代管</h3>
+        <p>專為住在台灣或香港的房東服務——招租、押金保障及維修一手處理。</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>單次招租或全面代管</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>法規及安全證書</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>每月中文帳目報告</span></li></ul>
+        
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="homes">
+    <div class="wrap">
+      <header class="sec-head sec-head-row">
+        <div>
+          <p class="eyebrow">物件</p>
+          <h2>出售及出租物件</h2>
+          <p>每個物件都清楚列出產權、市政稅級別及能源評級。以下物件均為虛構。</p>
+        </div>
+        <div class="filter" data-filter="#home-grid" role="group">
+          <button type="button" data-value="all" aria-pressed="true">全部</button>
+          <button type="button" data-value="sale" aria-pressed="false">出售</button>
+          <button type="button" data-value="let" aria-pressed="false">出租</button>
+        </div>
+      </header>
+      <div class="home-grid" id="home-grid">
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
+<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-body">
+            <p class="home-price">£895,000</p>
+            <h3>3 房維多利亞式連排屋</h3>
+            <p class="home-area">Ealing W5</p>
+            <ul class="home-facts"><li>永久產權 Freehold</li><li>市政稅 E 級</li><li>EPC 能源評級 D</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#e2d3bf"/><rect x="80" y="40" width="170" height="10" fill="#6b5a4a"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#6b5a4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-body">
+            <p class="home-price">£450,000</p>
+            <h3>2 房河景公寓</h3>
+            <p class="home-area">Kingston KT2</p>
+            <ul class="home-facts"><li>租賃產權 Leasehold・剩餘 125 年</li><li>管理費每年 £1,800・地租每年 £250</li><li>市政稅 C 級・EPC B</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="60" y="80" width="100" height="100" fill="#d9a77f"/><rect x="160" y="80" width="100" height="100" fill="#d9a77f" opacity=".88"/>
+<polygon points="50,82 110,40 210,40 270,82" fill="#4a3a33"/>
+<rect x="76" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="116" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="176" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="216" y="96" width="28" height="28" fill="#fdf6ec"/>
+<rect x="76" y="140" width="36" height="26" fill="#fdf6ec"/><rect x="124" y="136" width="22" height="44" fill="#3d5a45"/>
+<rect x="174" y="136" width="22" height="44" fill="#3d5a45"/><rect x="208" y="140" width="36" height="26" fill="#fdf6ec"/>
+<rect x="18" y="128" width="34" height="52" rx="17" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">出售</span></div>
+          <div class="home-body">
+            <p class="home-price">£725,000</p>
+            <h3>4 房半獨立屋</h3>
+            <p class="home-area">Sutton SM1</p>
+            <ul class="home-facts"><li>永久產權 Freehold</li><li>市政稅 E 級</li><li>EPC 能源評級 C</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#cfd8d3"/><rect x="80" y="40" width="170" height="10" fill="#3f4f4a"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#3f4f4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-body">
+            <p class="home-price">每月 £2,150</p>
+            <h3>2 房公寓・近伊莉莎白線</h3>
+            <p class="home-area">Ealing W13</p>
+            <ul class="home-facts"><li>押金 £2,480（5 週租金）</li><li>市政稅 C 級</li><li>EPC 能源評級 C</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#efe1cf"/><rect x="80" y="40" width="170" height="10" fill="#7a5a44"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#7a5a44"/><rect x="152" y="156" width="26" height="24" fill="#2d4a5a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-body">
+            <p class="home-price">每月 £1,650</p>
+            <h3>1 房公寓・市中心</h3>
+            <p class="home-area">Kingston KT1</p>
+            <ul class="home-facts"><li>押金 £1,903（5 週租金）</li><li>市政稅 B 級</li><li>EPC 能源評級 B</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#a9b8a0"/><rect x="120" y="70" width="80" height="110" fill="#a9b8a0" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#a9b8a0"/>
+<polygon points="34,72 160,30 286,72" fill="#3f4a3a"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#b4532a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">出租</span></div>
+          <div class="home-body">
+            <p class="home-price">每月 £2,400</p>
+            <h3>3 房連花園家庭屋</h3>
+            <p class="home-area">Sutton SM2</p>
+            <ul class="home-facts"><li>押金 £2,769（5 週租金）</li><li>市政稅 D 級</li><li>EPC 能源評級 D</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="areas">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">區域介紹</p>
+        <h2>新移民區域介紹</h2>
+      </header>
+      <div class="area-grid">
+        <article class="area"><p class="area-region">西倫敦</p><h3>Ealing</h3><p>伊莉莎白線、中央線及區域線直達市中心。維多利亞式街道、大型公園，學校選擇多。</p></article>
+        <article class="area"><p class="area-region">西南倫敦</p><h3>Kingston upon Thames</h3><p>河畔市中心，有火車直達 Waterloo。學校與購物便利，深受香港家庭歡迎。</p></article>
+        <article class="area"><p class="area-region">南倫敦</p><h3>Sutton</h3><p>環境較寧靜的郊區，多為附花園的家庭屋，有火車通往 Victoria 及金融城。</p></article>
+      </div>
+      <p class="areas-note">選擇地址前，請務必查閱 Ofsted 學校報告及入學規定。</p>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="guide">
+    <div class="wrap guide-inner">
+      <header class="sec-head">
+        <p class="eyebrow">購屋流程</p>
+        <h2>英國購屋流程，一步步來</h2>
+        <p>印花稅（SDLT）視乎房價及個人情況而定。非英國稅務居民的買家可能需要繳付額外附加稅。你的過戶律師會確認適用的稅額。</p>
+      </header>
+      <ol class="guide">
+        <li><span class="n">1</span><div><h3>房貸原則性批核</h3><p>先了解可以借多少，部分貸款機構專門服務新移民。</p></div></li>
+        <li><span class="n">2</span><div><h3>看房與出價</h3><p>我們安排看房，並以書面向賣方提出你的出價。</p></div></li>
+        <li><span class="n">3</span><div><h3>委託過戶律師</h3><p>由律師或持牌過戶師處理法律文件及各項查冊。</p></div></li>
+        <li><span class="n">4</span><div><h3>房屋檢測</h3><p>由獨立測量師檢查房屋狀況。</p></div></li>
+        <li><span class="n">5</span><div><h3>交換合約</h3><p>雙方交換合約並支付訂金，買賣正式具約束力。</p></div></li>
+        <li><span class="n">6</span><div><h3>完成交易</h3><p>付清餘款，正式拿到鑰匙。</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">我們的團隊</p>
+        <h2>講你語言的房仲團隊</h2>
+      </header>
+      <div class="team-grid">
+      <article class="person">
+        <div class="avatar" aria-hidden="true">MH</div>
+        <div>
+          <h3>黃美君 Mei Huang</h3>
+          <p class="role">總監・買賣</p>
+          <p class="bio">2012 年由台中移居倫敦，已協助數百個家庭買到第一間英國房子。</p>
+          <p class="speaks"><span>使用語言</span> 國語、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">JL</div>
+        <div>
+          <h3>梁志豪 Jason Leung</h3>
+          <p class="role">資深房仲・買賣</p>
+          <p class="bio">專攻 Kingston 及 Sutton 一帶的家庭住宅，服務由香港來英的買家。</p>
+          <p class="speaks"><span>使用語言</span> 粵語、英文</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">HP</div>
+        <div>
+          <h3>Hannah Price</h3>
+          <p class="role">租賃及物業管理經理</p>
+          <p class="bio">為海外房東處理租約、押金及維修事宜。</p>
+          <p class="speaks"><span>使用語言</span> 英文</p>
+        </div>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="faq">
+    <div class="wrap narrow">
+      <header class="sec-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>常見問題</h2>
+      </header>
+      <div class="faq">
+      <details class="qa">
+        <summary>持 BN(O) 或工作簽證可以在英國買房嗎？</summary>
+        <div><p>可以。英國沒有限制特定簽證才能擁有房產。能否申請房貸則視乎銀行，有些貸款機構專門服務新移民，建議及早諮詢房貸顧問。</p></div>
+      </details>
+      <details class="qa">
+        <summary>剛來英國，買房要多付印花稅嗎？</summary>
+        <div><p>印花稅（SDLT）視乎房價及個人情況而定。非英國稅務居民的買家可能需要繳付額外附加稅。你的過戶律師會確認適用的稅額。</p></div>
+      </details>
+      <details class="qa">
+        <summary>沒有英國信用紀錄，還能租屋嗎？</summary>
+        <div><p>通常可以。房東可能會要求英國擔保人，或改為提供收入或存款證明。我們會在申請前說明各種選擇。</p></div>
+      </details>
+      <details class="qa">
+        <summary>租屋的訂金是多少？</summary>
+        <div><p>在英格蘭，訂金（holding deposit）上限為一週租金；年租低於 £50,000 的租約，押金上限為五週租金。押金必須存放於政府認可的保障計劃。</p></div>
+      </details></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">聯絡我們</p>
+        <h2>預約看房或免費估價</h2>
+        <p>告訴我們你的需求，我們會在一個工作天內以國語、粵語或英文回覆。</p>
+        <ul class="contact-list">
+          <li><span>電話</span><a href="tel:+442079460123">020 7946 0123</a></li>
+          <li><span>電郵</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><span>辦公室</span>倫敦（虛構地址）</li>
+          <li><span>營業時間</span>週一至週六 9:00–18:00・週日看房需預約</li>
+        </ul>
+      </div>
+      <form class="enquiry" novalidate data-demo-msg="這是示範網站，訊息並未送出。">
+        <label>姓名<input name="name" autocomplete="name" required></label>
+        <label>電郵<input name="email" type="email" autocomplete="email" required></label>
+        <label>電話（選填）<input name="phone" type="tel" autocomplete="tel"></label>
+        <label>偏好語言<select name="lang"><option>English</option><option selected>繁體中文</option><option>简体中文</option><option>粵語（口語）</option></select></label>
+        <label class="full">請簡述你的需要<textarea name="message" rows="4"></textarea></label>
+        <button class="btn full" type="submit">送出查詢 <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-status full" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">雅德地產</p>
+        <p class="footer-sub">UX CIRCLES 為示範三語房產網站及物件資訊揭露而虛構的房仲。</p>
+      </div>
+      <div class="reg">
+        <p class="reg-title">監管資訊</p>
+        <ul><li>真實房仲需列明：The Property Ombudsman 會員，編號 D00000（示範）</li><li>客戶資金保障（CMP）計劃及證書（示範）</li><li>房東及租客收費完整公開（示範）</li><li>ICO 資料保護登記編號 ZA000000（示範）</li></ul>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 雅德地產 (fictional) · <a href="#contact">私隱政策</a> · <a href="#contact">投訴程序</a> · 本示範網站不使用 cookies 或追蹤工具。</p>
+      <p>概念網站設計： <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></p>
+    </div>
+  </div>
+</footer>
+<script src="../main.js" defer></script>
+</body>
+</html>

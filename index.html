@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alder &amp; Wren — Chinese-speaking estate agents in London (demo)</title>
+<meta name="description" content="Fictional demo by UX CIRCLES: a London estate agent for Taiwanese and Hong Kong buyers and tenants. Homes for sale and to let, area guides and a step-by-step UK buying guide in English and Chinese.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://uxcircles.github.io/demo-estate-agent/">
+<link rel="alternate" hreflang="en-GB" href="https://uxcircles.github.io/demo-estate-agent/">
+<link rel="alternate" hreflang="zh-Hant" href="https://uxcircles.github.io/demo-estate-agent/zh-hant/">
+<link rel="alternate" hreflang="zh-Hans" href="https://uxcircles.github.io/demo-estate-agent/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://uxcircles.github.io/demo-estate-agent/">
+<meta property="og:title" content="Alder &amp; Wren — Chinese-speaking estate agents in London (demo)">
+<meta property="og:description" content="Fictional demo by UX CIRCLES: a London estate agent for Taiwanese and Hong Kong buyers and tenants. Homes for sale and to let, area guides and a step-by-step UK buying guide in English and Chinese.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://uxcircles.github.io/demo-estate-agent/">
+<meta name="theme-color" content="#b4532a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://uxcircles.github.io/demo-estate-agent/#agency",
+      "name": "Alder & Wren",
+      "url": "https://uxcircles.github.io/demo-estate-agent/",
+      "description": "Fictional demo by UX CIRCLES: a London estate agent for Taiwanese and Hong Kong buyers and tenants. Homes for sale and to let, area guides and a step-by-step UK buying guide in English and Chinese.",
+      "telephone": "+44 20 7946 0123",
+      "email": "hello@example.com",
+      "knowsLanguage": [
+        "en",
+        "cmn",
+        "yue",
+        "zh-Hant",
+        "zh-Hans"
+      ],
+      "areaServed": [
+        "Ealing",
+        "Kingston upon Thames",
+        "Sutton"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "London",
+        "addressCountry": "GB"
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "Mei Huang",
+          "jobTitle": "Director · Sales",
+          "knowsLanguage": "Mandarin, English"
+        },
+        {
+          "@type": "Person",
+          "name": "Jason Leung",
+          "jobTitle": "Senior negotiator · Sales",
+          "knowsLanguage": "Cantonese, English"
+        },
+        {
+          "@type": "Person",
+          "name": "Hannah Price",
+          "jobTitle": "Lettings & property manager",
+          "knowsLanguage": "English"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I buy a home in the UK on a BN(O) or work visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. There is no visa requirement to own property in the UK. Getting a mortgage depends on the lender — some specialise in recent arrivals — so we suggest speaking to a mortgage broker early."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I pay extra Stamp Duty as a new arrival?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stamp Duty Land Tax depends on the price and your circumstances. Buyers who are not UK resident for tax purposes may pay an extra surcharge. Your conveyancer will confirm what applies to you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I have no UK credit history. Can I still rent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually, yes. Landlords may ask for a UK guarantor or proof of income or savings instead. We explain the options before you apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is the holding deposit when renting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In England, a holding deposit is capped at one week’s rent, and a tenancy deposit at five weeks’ rent for annual rent under £50,000. Deposits must be protected in a government-approved scheme."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="lang-en">
+<a class="skip" href="#main">Skip to content</a>
+<div class="demo-bar" role="note"><span class="demo-tag">DEMO</span><span>Design demo by <a href="https://ux-circles.com/professionals">UX CIRCLES</a>. This is a fictional firm — not a real business, and nothing here is advice.</span></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Alder &amp; Wren">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="12" fill="#b4532a"/><path d="M9 21L20 11l11 10" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 19v11h14V19" stroke="#fff6ec" stroke-width="2.8" fill="none" stroke-linejoin="round"/><circle cx="20" cy="24" r="2.4" fill="#fff6ec"/></svg>
+      <span class="brand-text"><span class="brand-name">Alder & Wren</span><span class="brand-sub">Sales & Lettings · London</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Menu">
+      <ul><li><a href="#services">Services</a></li><li><a href="#homes">Homes</a></li><li><a href="#areas">Area guides</a></li><li><a href="#guide">Buying guide</a></li><li><a href="#team">Team</a></li></ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="Language"><a href="./" lang="en-GB" hreflang="en-GB" title="English" aria-current="true">EN</a><a href="zh-hant/" lang="zh-Hant" hreflang="zh-Hant" title="繁體中文">繁</a><a href="zh-hans/" lang="zh-Hans" hreflang="zh-Hans" title="简体中文">简</a></div>
+      <a class="btn btn-sm" href="#contact">Book a viewing</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav"><span class="sr">Menu</span><span class="bars" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Menu" hidden>
+    <ul><li><a href="#services">Services</a></li><li><a href="#homes">Homes</a></li><li><a href="#areas">Area guides</a></li><li><a href="#guide">Buying guide</a></li><li><a href="#team">Team</a></li><li><a href="#contact">Contact</a></li></ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Estate agents for Taiwanese & Hong Kong families</p>
+        <h1>Your first UK home, explained in Chinese.</h1>
+        <p class="lede">Freehold or leasehold, council tax bands, deposits and conveyancing — we walk you through every step of buying or renting in London, in Mandarin, Cantonese or English.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Book a viewing <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#services">How we help</a>
+        </div>
+        <ul class="trust"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Mandarin · Cantonese · English</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Property Ombudsman member (demo)</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Client Money Protection (demo)</span></li></ul>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-home">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
+<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">For sale</span></div>
+          <div class="home-body">
+            <p class="home-price">£895,000</p>
+            <h3>3 bed Victorian terrace</h3>
+            <p class="home-area">Ealing, W5</p>
+            <ul class="home-facts"><li>Freehold</li><li>Council tax band E</li><li>EPC D</li></ul>
+          </div>
+        </div>
+        <div class="hero-chip" aria-hidden="true"><span>中</span>Mandarin · Cantonese · English</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">Services</p>
+        <h2>Buying, renting, selling and letting</h2>
+        <p>Whether you have just arrived or are investing from overseas, we explain UK property in plain language before you commit to anything.</p>
+      </header>
+      <div class="svc-grid">
+      <article class="svc">
+        <p class="svc-kicker">Buyers</p>
+        <h3>Buying your first UK home</h3>
+        <p>From mortgage agreement in principle to completion, with a Chinese-speaking negotiator at every viewing.</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Viewings in Mandarin or Cantonese</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Leasehold terms explained</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Introductions to conveyancers</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">Tenants</p>
+        <h3>Renting in London</h3>
+        <p>Help with referencing when you have no UK credit history yet, and a clear breakdown of rent, deposit and bills.</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Referencing support for new arrivals</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Deposit protection explained</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Inventory in English & Chinese</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">Sellers</p>
+        <h3>Selling your home</h3>
+        <p>Marketing to UK buyers and to Chinese-speaking buyers looking for homes in London.</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Free valuation</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Bilingual listings</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Material information prepared</span></li></ul>
+        
+      </article>
+      <article class="svc">
+        <p class="svc-kicker">Landlords</p>
+        <h3>Letting & management</h3>
+        <p>For landlords living in Taiwan or Hong Kong — we find tenants, protect deposits and handle repairs.</p>
+        <ul class="ticks"><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Tenant find or full management</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Compliance & safety certificates</span></li><li><svg class="ico ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg><span>Monthly statements in Chinese</span></li></ul>
+        
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="homes">
+    <div class="wrap">
+      <header class="sec-head sec-head-row">
+        <div>
+          <p class="eyebrow">Homes</p>
+          <h2>Homes for sale and to let</h2>
+          <p>Every listing shows tenure, council tax band and energy rating up front. These listings are fictional.</p>
+        </div>
+        <div class="filter" data-filter="#home-grid" role="group">
+          <button type="button" data-value="all" aria-pressed="true">All</button>
+          <button type="button" data-value="sale" aria-pressed="false">For sale</button>
+          <button type="button" data-value="let" aria-pressed="false">To let</button>
+        </div>
+      </header>
+      <div class="home-grid" id="home-grid">
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#c46b4b"/><rect x="120" y="70" width="80" height="110" fill="#c46b4b" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#c46b4b"/>
+<polygon points="34,72 160,30 286,72" fill="#5b3a2e"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#2d4a5a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#c46b4b" stroke="#5b3a2e" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">For sale</span></div>
+          <div class="home-body">
+            <p class="home-price">£895,000</p>
+            <h3>3 bed Victorian terrace</h3>
+            <p class="home-area">Ealing, W5</p>
+            <ul class="home-facts"><li>Freehold</li><li>Council tax band E</li><li>EPC D</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#e2d3bf"/><rect x="80" y="40" width="170" height="10" fill="#6b5a4a"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#6b5a4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">For sale</span></div>
+          <div class="home-body">
+            <p class="home-price">£450,000</p>
+            <h3>2 bed riverside flat</h3>
+            <p class="home-area">Kingston upon Thames, KT2</p>
+            <ul class="home-facts"><li>Leasehold · 125 years left</li><li>Service charge £1,800/yr · Ground rent £250/yr</li><li>Council tax band C · EPC B</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="sale">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#f4e6d8"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="60" y="80" width="100" height="100" fill="#d9a77f"/><rect x="160" y="80" width="100" height="100" fill="#d9a77f" opacity=".88"/>
+<polygon points="50,82 110,40 210,40 270,82" fill="#4a3a33"/>
+<rect x="76" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="116" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="176" y="96" width="28" height="28" fill="#fdf6ec"/><rect x="216" y="96" width="28" height="28" fill="#fdf6ec"/>
+<rect x="76" y="140" width="36" height="26" fill="#fdf6ec"/><rect x="124" y="136" width="22" height="44" fill="#3d5a45"/>
+<rect x="174" y="136" width="22" height="44" fill="#3d5a45"/><rect x="208" y="140" width="36" height="26" fill="#fdf6ec"/>
+<rect x="18" y="128" width="34" height="52" rx="17" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag sale">For sale</span></div>
+          <div class="home-body">
+            <p class="home-price">£725,000</p>
+            <h3>4 bed semi-detached house</h3>
+            <p class="home-area">Sutton, SM1</p>
+            <ul class="home-facts"><li>Freehold</li><li>Council tax band E</li><li>EPC C</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#cfd8d3"/><rect x="80" y="40" width="170" height="10" fill="#3f4f4a"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#3f4f4a"/><rect x="152" y="156" width="26" height="24" fill="#b4532a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">To let</span></div>
+          <div class="home-body">
+            <p class="home-price">£2,150 pcm</p>
+            <h3>2 bed flat near the Elizabeth line</h3>
+            <p class="home-area">Ealing, W13</p>
+            <ul class="home-facts"><li>Deposit £2,480 (5 weeks)</li><li>Council tax band C</li><li>EPC C</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="80" y="40" width="170" height="140" fill="#efe1cf"/><rect x="80" y="40" width="170" height="10" fill="#7a5a44"/>
+<rect x="96" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="58" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="90" width="26" height="20" fill="#fdf6ec"/><rect x="96" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="134" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="172" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="210" y="122" width="26" height="20" fill="#fdf6ec"/><rect x="72" y="150" width="186" height="6" fill="#7a5a44"/><rect x="152" y="156" width="26" height="24" fill="#2d4a5a"/>
+<rect x="40" y="120" width="34" height="60" rx="17" fill="#7a9a6a"/><rect x="258" y="130" width="28" height="50" rx="14" fill="#7a9a6a"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">To let</span></div>
+          <div class="home-body">
+            <p class="home-price">£1,650 pcm</p>
+            <h3>1 bed flat, town centre</h3>
+            <p class="home-area">Kingston upon Thames, KT1</p>
+            <ul class="home-facts"><li>Deposit £1,903 (5 weeks)</li><li>Council tax band B</li><li>EPC B</li></ul>
+          </div>
+        </article>
+        <article class="home" data-kind="let">
+          <div class="home-art"><svg viewBox="0 0 320 200" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="320" height="200" fill="#e8eef0"/><circle cx="270" cy="40" r="16" fill="#f2c48d"/><rect x="40" y="70" width="80" height="110" fill="#a9b8a0"/><rect x="120" y="70" width="80" height="110" fill="#a9b8a0" opacity=".85"/><rect x="200" y="70" width="80" height="110" fill="#a9b8a0"/>
+<polygon points="34,72 160,30 286,72" fill="#3f4a3a"/>
+<rect x="52" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="84" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="146" y="92" width="28" height="30" fill="#fdf6ec"/>
+<rect x="212" y="92" width="24" height="30" fill="#fdf6ec"/><rect x="244" y="92" width="24" height="30" fill="#fdf6ec"/>
+<polygon points="48,180 48,140 64,132 100,132 116,140 116,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="58" y="146" width="48" height="22" fill="#fdf6ec"/>
+<rect x="148" y="134" width="24" height="46" rx="12" fill="#b4532a"/>
+<polygon points="208,180 208,140 224,132 260,132 276,140 276,180" fill="#a9b8a0" stroke="#3f4a3a" stroke-width="3"/><rect x="218" y="146" width="48" height="22" fill="#fdf6ec"/><rect y="180" width="320" height="20" fill="#d9c3ad"/></svg><span class="home-tag let">To let</span></div>
+          <div class="home-body">
+            <p class="home-price">£2,400 pcm</p>
+            <h3>3 bed family house with garden</h3>
+            <p class="home-area">Sutton, SM2</p>
+            <ul class="home-facts"><li>Deposit £2,769 (5 weeks)</li><li>Council tax band D</li><li>EPC D</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="areas">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">Area guides</p>
+        <h2>Area guides for new arrivals</h2>
+      </header>
+      <div class="area-grid">
+        <article class="area"><p class="area-region">West London</p><h3>Ealing</h3><p>Elizabeth, Central and District lines into central London. Victorian streets, large parks and a wide choice of schools.</p></article>
+        <article class="area"><p class="area-region">South-west London</p><h3>Kingston upon Thames</h3><p>Riverside town centre with direct trains to London Waterloo. Popular with Hong Kong families for its schools and shopping.</p></article>
+        <article class="area"><p class="area-region">South London</p><h3>Sutton</h3><p>Quieter suburban streets, family houses with gardens, and trains to London Victoria and the City.</p></article>
+      </div>
+      <p class="areas-note">Always check Ofsted reports and school admission rules for the address you are considering.</p>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="guide">
+    <div class="wrap guide-inner">
+      <header class="sec-head">
+        <p class="eyebrow">Buying guide</p>
+        <h2>Buying in the UK, step by step</h2>
+        <p>Stamp Duty Land Tax depends on the price and your circumstances. Buyers who are not UK resident for tax purposes may pay an extra surcharge. Your conveyancer will confirm what applies to you.</p>
+      </header>
+      <ol class="guide">
+        <li><span class="n">1</span><div><h3>Mortgage in principle</h3><p>Find out how much you can borrow. Some lenders specialise in recent arrivals.</p></div></li>
+        <li><span class="n">2</span><div><h3>Viewings & offer</h3><p>We arrange viewings, then put your offer to the seller in writing.</p></div></li>
+        <li><span class="n">3</span><div><h3>Instruct a conveyancer</h3><p>A solicitor or licensed conveyancer handles the legal work and searches.</p></div></li>
+        <li><span class="n">4</span><div><h3>Survey</h3><p>An independent survey checks the condition of the property.</p></div></li>
+        <li><span class="n">5</span><div><h3>Exchange</h3><p>Contracts are exchanged and the deposit is paid — the sale becomes binding.</p></div></li>
+        <li><span class="n">6</span><div><h3>Completion</h3><p>The balance is paid and you collect the keys.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="eyebrow">Our team</p>
+        <h2>Negotiators who speak your language</h2>
+      </header>
+      <div class="team-grid">
+      <article class="person">
+        <div class="avatar" aria-hidden="true">MH</div>
+        <div>
+          <h3>Mei Huang</h3>
+          <p class="role">Director · Sales</p>
+          <p class="bio">Moved from Taichung to London in 2012 and has helped hundreds of families buy their first UK home.</p>
+          <p class="speaks"><span>Speaks</span> Mandarin, English</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">JL</div>
+        <div>
+          <h3>Jason Leung</h3>
+          <p class="role">Senior negotiator · Sales</p>
+          <p class="bio">Specialises in family homes in Kingston and Sutton for buyers arriving from Hong Kong.</p>
+          <p class="speaks"><span>Speaks</span> Cantonese, English</p>
+        </div>
+      </article>
+      <article class="person">
+        <div class="avatar" aria-hidden="true">HP</div>
+        <div>
+          <h3>Hannah Price</h3>
+          <p class="role">Lettings & property manager</p>
+          <p class="bio">Looks after tenancies, deposits and maintenance for landlords living overseas.</p>
+          <p class="speaks"><span>Speaks</span> English</p>
+        </div>
+      </article></div>
+    </div>
+  </section>
+
+  <section class="section section-tint" id="faq">
+    <div class="wrap narrow">
+      <header class="sec-head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Frequently asked questions</h2>
+      </header>
+      <div class="faq">
+      <details class="qa">
+        <summary>Can I buy a home in the UK on a BN(O) or work visa?</summary>
+        <div><p>Yes. There is no visa requirement to own property in the UK. Getting a mortgage depends on the lender — some specialise in recent arrivals — so we suggest speaking to a mortgage broker early.</p></div>
+      </details>
+      <details class="qa">
+        <summary>Do I pay extra Stamp Duty as a new arrival?</summary>
+        <div><p>Stamp Duty Land Tax depends on the price and your circumstances. Buyers who are not UK resident for tax purposes may pay an extra surcharge. Your conveyancer will confirm what applies to you.</p></div>
+      </details>
+      <details class="qa">
+        <summary>I have no UK credit history. Can I still rent?</summary>
+        <div><p>Usually, yes. Landlords may ask for a UK guarantor or proof of income or savings instead. We explain the options before you apply.</p></div>
+      </details>
+      <details class="qa">
+        <summary>How much is the holding deposit when renting?</summary>
+        <div><p>In England, a holding deposit is capped at one week’s rent, and a tenancy deposit at five weeks’ rent for annual rent under £50,000. Deposits must be protected in a government-approved scheme.</p></div>
+      </details></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Book a viewing or a free valuation</h2>
+        <p>Tell us what you are looking for. We reply within one working day in Mandarin, Cantonese or English.</p>
+        <ul class="contact-list">
+          <li><span>Phone</span><a href="tel:+442079460123">020 7946 0123</a></li>
+          <li><span>Email</span><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><span>Office</span>London (fictional address)</li>
+          <li><span>Hours</span>Mon–Sat 9:00–18:00 · Sunday viewings by appointment</li>
+        </ul>
+      </div>
+      <form class="enquiry" novalidate data-demo-msg="This is a demo site — your message was not sent.">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Phone (optional)<input name="phone" type="tel" autocomplete="tel"></label>
+        <label>Preferred language<select name="lang"><option selected>English</option><option>繁體中文</option><option>简体中文</option><option>Cantonese (spoken)</option></select></label>
+        <label class="full">How can we help?<textarea name="message" rows="4"></textarea></label>
+        <button class="btn full" type="submit">Send enquiry <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <p class="form-status full" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">Alder & Wren</p>
+        <p class="footer-sub">Fictional estate agent created by UX CIRCLES to demonstrate a trilingual property website with clear material information.</p>
+      </div>
+      <div class="reg">
+        <p class="reg-title">Regulatory information</p>
+        <ul><li>A real agent would show: member of The Property Ombudsman, membership no. D00000 (demo)</li><li>Client Money Protection scheme and certificate (demo)</li><li>Fees for landlords and tenants, published in full (demo)</li><li>ICO data protection registration no. ZA000000 (demo)</li></ul>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Alder & Wren (fictional) · <a href="#contact">Privacy notice</a> · <a href="#contact">Complaints</a> · This demo uses no cookies or tracking.</p>
+      <p>Concept website designed by <a href="https://ux-circles.com/professionals">UX CIRCLES <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg></a></p>
+    </div>
+  </div>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>
